@@ -15,18 +15,19 @@ Prefabs tasklist:
 - [ ] Key
 - [ ] Interactive Firearm (one that you can pick up / collect)
 
-#### Player Prefab
+- #### Player Prefab
 This contains the entire player object, the movement system, and the gun. The Camera is childed to the Moveable Player object, and all of the PF objects are childed to the Camera. This can all be changed but it works currently. There's also a hitbox with a damageable component on it, and the Ability Manager, which has all of the ability scripts.
 
-** Player Prefab Content **
-![player prefab](https://user-images.githubusercontent.com/25305809/53062278-4f2f2180-348e-11e9-8a87-4c585f7d66d8.png)
 
-#### Persistent Gameplay Prefab
+![player prefab](https://user-images.githubusercontent.com/25305809/53062278-4f2f2180-348e-11e9-8a87-4c585f7d66d8.png)
+**Player Prefab Content**
+
+- #### Persistent Gameplay Prefab
 This contains all data necessary to the basic UI - two ability dials and an ammo counter. This is very placeholder and pretty rough (lol can u tell?).
 
-** UI Screenshot **
-Checkmark is "Jump" and the dot is "zeroG" ability. Currently, jump has a 5 sec cooldown and zero g has a 5 second active time and a 10 second cooldown.
 ![player prefab](https://user-images.githubusercontent.com/25305809/53062287-56eec600-348e-11e9-8124-c5b9cc905bdd.png).
+**UI Screenshot**
+Checkmark is "Jump" and the dot is "zeroG" ability. Currently, jump has a 5 sec cooldown and zero g has a 5 second active time and a 10 second cooldown.
 
 ### Installation
 
