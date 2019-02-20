@@ -46,7 +46,7 @@ Prefabs ideas:
 - [ ] Interactive Firearm (one that you can pick up / collect)
 
 #### Player Prefab
-This contains the entire player object, the movement system, and the gun. The Camera is childed to the Moveable Player object, and all of the PF objects are childed to the Camera. This can all be changed but it works currently. There's also a hitbox with a damageable component on it, and the Ability Manager, which has all of the ability scripts.
+This contains the entire player object, the movement system, and the gun. The Camera is a child of the Moveable Player object, and all of the PF objects are children of the Camera. This can all be changed but it works currently for basic functionality. There's also a hitbox with a damageable component on it, and the Ability Manager, which has all of the ability scripts.
 
 **Player Prefab Content**
 
@@ -60,21 +60,33 @@ This contains all data necessary to the basic UI - two ability dials and an ammo
 Checkmark is "Jump" and the dot is "zeroG" ability. Currently, jump has a 5 sec cooldown and zero g has a 5 second active time and a 10 second cooldown.
 
 ### Folder Structure
-There's some random stuff in places, but generally I have been trying to keep anything that's related specifically to this game that we don't want in our core in "DemoSceneCore" and modify the GrandmaAssetPackages core only when necessary. There are a couple of asset packages in there, including some free assets from online I found. Those are in their own folders in /.
+There's some random stuff in places, but generally I have been trying to keep anything that's related specifically to this game that we don't want in our core in "DemoSceneCore" and modify the GrandmaAssetPackages core only when necessary. Other than those, there are a couple of asset folders, including some free assets from online I found. Those are in their own folders in /.
 
 ### Installation
+You can't use regular git clone, because the submodule of GrandmaAssetPackages will be empty. You have to use the `--recurse-submodules` flag.
+
+   `git clone --recurse-submodules https://github.com/GreatGrandmaGames/fps-prototype.git`
 
 #### GrandmaAssetPackages Submodule
-Note that the folder Assets/GrandmaAssetPackages is a Github submodule. Here's some info on it but if you clone the repo and there are no files in there you might have to pull the repo. 
+Note that the folder Assets/GrandmaAssetPackages is a Github submodule. Here's some info on it but if you clone the repo without the above command and there are no files in there you will have to pull the contents of the repo.
 
+    `cd Assets/GrandmaAssetPackages`
+
+    `git pull`
+
+##### Resources
 - [Submodule Resource](https://gist.github.com/gitaarik/8735255).
 - [Submodule Documentation](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
 
-#### Other things
-I think you should just be able to clone and run the DemoScene... I tried it on my own machine from scratch, and there were a couple null reference exceptions for ability manager that just aren't saved in the AbilityManager prefab, you should just have to drag the abilities into the ability manager to initialize it. 
+#### Potential Issues
+- If there are a couple null reference exceptions for ability manager, you should just have to drag the abilities currently in the scene (on the Ability Manager object) into the ability manager script to initialize it. 
+- If there are other issues specific to GrandmaComponents (like not being able to move / shoot), you may have to initialize their data which is all in DemoSceneCore/Data. All of our data needs to be created through the Asset Create menu unless you want it to use default data.
+- If you make a new scene, the Player object has a nested Camera in it so if you drop the Player into a scene with another camera you'll have an issue.
 
-If there are other issues (like not being able to move / shoot), you may have to initialize some data which is in DemoSceneCore/Data. All of our data needs to be created through the Asset Create menu unless you want it to use default data.
+#### Latest Version Used
+Unity 2018.3.0f2. 02/19/19
 
-If you make a new scene, the Player object has a nested Camera in it so if you drop the Player into a scene with another camera you'll have an issue.
-
-This is running Unity 2018.3.0f2. 
+### Credits
+Developed by Elliot Winch, Carlos-Michael Rodriguez
+Visual Design Kevin Yang
+Sound Design Christy Welch
