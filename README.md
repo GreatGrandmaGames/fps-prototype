@@ -84,9 +84,13 @@ Note that the folder Assets/GrandmaAssetPackages is a Github submodule. Here's s
 - If you make a new scene, the Player object has a nested Camera in it so if you drop the Player into a scene with another camera you'll have an issue.
 
 #### Latest Version Used
-Unity 2018.3.0f2. 02/19/19
+Unity 2018.3.0f2. 
+
+02/19/19
 
 ### Credits
 Developed by Elliot Winch, Carlos-Michael Rodriguez
+
 Visual Design Kevin Yang
+
 Sound Design Christy Welch
