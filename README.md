@@ -18,9 +18,11 @@ Prefabs tasklist:
 - #### Player Prefab
 This contains the entire player object, the movement system, and the gun. The Camera is childed to the Moveable Player object, and all of the PF objects are childed to the Camera. This can all be changed but it works currently. There's also a hitbox with a damageable component on it, and the Ability Manager, which has all of the ability scripts.
 
-
-![player prefab](https://user-images.githubusercontent.com/25305809/53062278-4f2f2180-348e-11e9-8a87-4c585f7d66d8.png)
 **Player Prefab Content**
+
+![player prefab](https://user-images.githubusercontent.com/25305809/53062278-4f2f2180-348e-11e9-8a87-4c585f7d66d8.png).
+
+
 
 - #### Persistent Gameplay Prefab
 This contains all data necessary to the basic UI - two ability dials and an ammo counter. This is very placeholder and pretty rough (lol can u tell?).
