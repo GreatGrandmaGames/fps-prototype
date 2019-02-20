@@ -59,6 +59,9 @@ This contains all data necessary to the basic UI - two ability dials and an ammo
 **UI Screenshot**
 Checkmark is "Jump" and the dot is "zeroG" ability. Currently, jump has a 5 sec cooldown and zero g has a 5 second active time and a 10 second cooldown.
 
+### Folder Structure
+There's some random stuff in places, but generally I have been trying to keep anything that's related specifically to this game that we don't want in our core in "DemoSceneCore" and modify the GrandmaAssetPackages core only when necessary. There are a couple of asset packages in there, including some free assets from online I found. Those are in their own folders in /.
+
 ### Installation
 
 #### GrandmaAssetPackages Submodule
