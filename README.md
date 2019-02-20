@@ -23,6 +23,13 @@ This contains all data necessary to the basic UI - two ability dials and an ammo
 
 ### Installation
 
+#### GrandmaAssetPackages Submodule
+Note that the Folder "GrandmaAssetPackages" is a github submodule. Here's some info on it but if you clone the repo and there are no files in there you might have to pull the repo. 
+
+[Submodule Resource](https://gist.github.com/gitaarik/8735255).
+[Submodule Documentation](https://git-scm.com/book/en/v2/Git-Tools-Submodules).
+
+#### Other things
 I think you should just be able to clone and run the DemoScene... I tried it on my own machine from scratch, and there were a couple null reference exceptions for ability manager that just aren't saved in the AbilityManager prefab, you should just have to drag the abilities into the ability manager to initialize it. 
 
 If there are other issues (like not being able to move / shoot), you may have to initialize some data which is in DemoSceneCore/Data. 
