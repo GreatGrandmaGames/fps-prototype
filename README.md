@@ -55,8 +55,10 @@ This contains the entire player object, the movement system, and the gun. The Ca
 #### Persistent Gameplay Prefab
 This contains all data necessary to the basic UI - two ability dials and an ammo counter. This is very placeholder and pretty rough.
 
-![player prefab](https://user-images.githubusercontent.com/25305809/53062287-56eec600-348e-11e9-8124-c5b9cc905bdd.png)
 **UI Screenshot**
+
+![player prefab](https://user-images.githubusercontent.com/25305809/53062287-56eec600-348e-11e9-8124-c5b9cc905bdd.png)
+
 Checkmark is "Jump" and the dot is "zeroG" ability. Currently, jump has a 5 sec cooldown and zero g has a 5 second active time and a 10 second cooldown.
 
 ### Folder Structure
