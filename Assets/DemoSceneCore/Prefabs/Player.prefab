@@ -101,10 +101,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d92ce256acfe40e2a86d593dc9686c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialDataMode: 0
   initialData: {fileID: 11400000, guid: 858a3eb75ef464062afbd4ae22c5d7ef, type: 2}
   dataClassName: 
   appendNameSpace: 1
-  useConventionalDataClass: 0
+  initialiseOnAwake: 0
   writeBeforeInitialRead: 0
   projectilePrefab: {fileID: 1948309229377837862, guid: 5cc57bbd9843d49b5806cee6240d1017,
     type: 3}
@@ -227,10 +228,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cba1d6f3e54a4363995eed42df5296c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialDataMode: 0
   initialData: {fileID: 11400000, guid: f3dd7de49eb714861944c1ce51ec806c, type: 2}
   dataClassName: 
   appendNameSpace: 1
-  useConventionalDataClass: 1
+  initialiseOnAwake: 0
   writeBeforeInitialRead: 0
   enteringKey: Jump
   rb: {fileID: 5569492902461094979}
@@ -247,10 +249,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e447df9a6f39e417b951932eb6395de2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialDataMode: 0
   initialData: {fileID: 11400000, guid: de5d79249db7743448c364f99acc0ed7, type: 2}
   dataClassName: 
   appendNameSpace: 1
-  useConventionalDataClass: 1
+  initialiseOnAwake: 0
   writeBeforeInitialRead: 0
   enteringKey: Interact
   moveable: {fileID: 5569492902461094981}
@@ -371,10 +374,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f65755d679f67040bf697986e1d1ab8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialDataMode: 0
   initialData: {fileID: 11400000, guid: 4c17f2db4bd85490aa905b039c92a2f7, type: 2}
   dataClassName: 
   appendNameSpace: 1
-  useConventionalDataClass: 0
+  initialiseOnAwake: 0
   writeBeforeInitialRead: 0
 --- !u!1 &5569492902876691560
 GameObject:
@@ -406,7 +410,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5569492902876691560}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -444,11 +448,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43de6bcbfd2e441bc9beaf6e3e5ce288, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialDataMode: 0
   initialData: {fileID: 11400000, guid: d64c6bec0f59f45cb80174ca07d9383f, type: 2}
   dataClassName: 
   appendNameSpace: 1
-  useConventionalDataClass: 0
-  writeBeforeInitialRead: 1
+  initialiseOnAwake: 1
+  writeBeforeInitialRead: 0
 --- !u!114 &5569492902461094976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -473,10 +478,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cffff2efeada0b64aa26b43d5a51f764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialDataMode: 0
   initialData: {fileID: 11400000, guid: d64c6bec0f59f45cb80174ca07d9383f, type: 2}
   dataClassName: 
   appendNameSpace: 0
-  useConventionalDataClass: 0
+  initialiseOnAwake: 1
   writeBeforeInitialRead: 0
   switchCode: 101
   allModes:
@@ -523,10 +529,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61b305dbe6392422fba110f44fc5aeb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialDataMode: 0
   initialData: {fileID: 11400000, guid: 84ad5b77dfa50457694494f87c9eda0c, type: 2}
   dataClassName: 
   appendNameSpace: 1
-  useConventionalDataClass: 0
+  initialiseOnAwake: 1
   writeBeforeInitialRead: 0
 --- !u!1 &5569492903149666503
 GameObject:
