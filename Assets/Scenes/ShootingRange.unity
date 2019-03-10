@@ -911,7 +911,7 @@ PrefabInstance:
     - target: {fileID: 564491738235137989, guid: e28e1f48d562748e88ff35c600e69231,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 564491738235137994, guid: e28e1f48d562748e88ff35c600e69231,
         type: 3}
@@ -1145,6 +1145,63 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &1172092652
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_Name
+      value: FPSController
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
 --- !u!1 &1172577090
 GameObject:
   m_ObjectHideFlags: 0
@@ -1563,7 +1620,7 @@ MonoBehaviour:
   initialData: {fileID: 0}
   dataClassName: 
   appendNameSpace: 1
-  initialiseOnAwake: 1
+  initialiseOnAwake: 0
   writeBeforeInitialRead: 0
   projectilePrefab: {fileID: 0}
   barrelTip: {fileID: 0}
@@ -3778,7 +3835,7 @@ MonoBehaviour:
   initialData: {fileID: 0}
   dataClassName: 
   appendNameSpace: 1
-  initialiseOnAwake: 1
+  initialiseOnAwake: 0
   writeBeforeInitialRead: 0
   projectilePrefab: {fileID: 0}
   barrelTip: {fileID: 0}
@@ -3963,7 +4020,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialDataMode: 0
-  initialData: {fileID: 11400000, guid: 4c17f2db4bd85490aa905b039c92a2f7, type: 2}
+  initialData: {fileID: 0}
   dataClassName: 
   appendNameSpace: 1
   initialiseOnAwake: 0
@@ -4027,14 +4084,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialDataMode: 0
-  initialData: {fileID: 11400000, guid: f3dd7de49eb714861944c1ce51ec806c, type: 2}
+  initialData: {fileID: 0}
   dataClassName: 
   appendNameSpace: 1
-  initialiseOnAwake: 1
+  initialiseOnAwake: 0
   writeBeforeInitialRead: 0
-  enteringKey: Jump
-  rb: {fileID: 1510586270450712506}
-  jumpForce: 10
+  enteringKey: 
+  rb: {fileID: 0}
+  jumpForce: 0
 --- !u!114 &1510586270019861417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4059,9 +4116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d19bb9eedbb4b048592a69261cefb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Abilities:
-  - {fileID: 1510586270019861416}
-  - {fileID: 1510586270019861419}
+  Abilities: []
 --- !u!114 &1510586270019861419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4075,13 +4130,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialDataMode: 0
-  initialData: {fileID: 11400000, guid: de5d79249db7743448c364f99acc0ed7, type: 2}
+  initialData: {fileID: 0}
   dataClassName: 
   appendNameSpace: 1
-  initialiseOnAwake: 1
+  initialiseOnAwake: 0
   writeBeforeInitialRead: 0
-  enteringKey: Interact
-  moveable: {fileID: 1510586270450712508}
+  enteringKey: 
+  moveable: {fileID: 0}
 --- !u!4 &1510586270060532299
 Transform:
   m_ObjectHideFlags: 0
@@ -4121,7 +4176,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1510586270060740498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4135,11 +4190,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialDataMode: 0
-  initialData: {fileID: 11400000, guid: 84ad5b77dfa50457694494f87c9eda0c, type: 2}
+  initialData: {fileID: 0}
   dataClassName: 
   appendNameSpace: 1
-  initialiseOnAwake: 1
-  writeBeforeInitialRead: 1
+  initialiseOnAwake: 0
+  writeBeforeInitialRead: 0
 --- !u!114 &1510586270060740499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4166,8 +4221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scrollWeaponsKey: 102
   reload: 114
-  inventory:
-  - {fileID: 6152379536339860481}
+  inventory: []
 --- !u!4 &1510586270332535585
 Transform:
   m_ObjectHideFlags: 0
@@ -4264,11 +4318,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialDataMode: 0
-  initialData: {fileID: 11400000, guid: d64c6bec0f59f45cb80174ca07d9383f, type: 2}
+  initialData: {fileID: 0}
   dataClassName: 
   appendNameSpace: 1
-  initialiseOnAwake: 1
-  writeBeforeInitialRead: 1
+  initialiseOnAwake: 0
+  writeBeforeInitialRead: 0
 --- !u!114 &1510586270450712505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4310,16 +4364,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialDataMode: 0
-  initialData: {fileID: 11400000, guid: d64c6bec0f59f45cb80174ca07d9383f, type: 2}
+  initialData: {fileID: 0}
   dataClassName: 
-  appendNameSpace: 0
-  initialiseOnAwake: 1
+  appendNameSpace: 1
+  initialiseOnAwake: 0
   writeBeforeInitialRead: 0
-  switchCode: 101
-  allModes:
-  - {fileID: 1510586270450712504}
-  - {fileID: 1510586270060740498}
-  StartingController: {fileID: 1510586270450712504}
+  switchCode: 0
+  allModes: []
+  StartingController: {fileID: 0}
 --- !u!33 &2710178162133702990
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4440,14 +4492,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   initialDataMode: 0
-  initialData: {fileID: 11400000, guid: 24325566611894fe1a6239a2c858e37e, type: 2}
+  initialData: {fileID: 0}
   dataClassName: 
   appendNameSpace: 1
-  initialiseOnAwake: 1
+  initialiseOnAwake: 0
   writeBeforeInitialRead: 0
-  projectilePrefab: {fileID: 417325487406218911, guid: dad7cd180475143df9230c60d1fcaba4,
-    type: 3}
-  barrelTip: {fileID: 8822434050477748643}
+  projectilePrefab: {fileID: 0}
+  barrelTip: {fileID: 0}
   OnTriggerPressed:
     m_PersistentCalls:
       m_Calls: []
