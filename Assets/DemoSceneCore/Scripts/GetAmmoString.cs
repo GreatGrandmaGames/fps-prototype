@@ -5,13 +5,13 @@ using Grandma;
 using Grandma.ParametricFirearms;
 public class GetAmmoString : GetData
 {
-    public ParametricFirearm pf;
+    public PlayerPFController pf;
     protected override string GetString()
     {
         string s = "";
-        s += pf.CurrentAmmo.ToString();
+        s += pf.Current.CurrentAmmo.ToString();
         s += " / ";
-        s += pf.PFData.RateOfFire.AmmoCapacity.ToString();
+        s += pf.Current.PFData.RateOfFire.AmmoCapacity.ToString();
         return s;
     }
     // Update is called once per frame
