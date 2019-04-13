@@ -29,7 +29,7 @@ MonoBehaviour:
     explodable: 1
     maxDamage: 0
     maxBlastRange: 0
-    numImpactsToDetonate: 2
+    numImpactsToDetonate: 1
   Trajectory:
     initialForceVector: 200
     maxInitialSpreadAngle: 0
