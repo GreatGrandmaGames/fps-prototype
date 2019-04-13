@@ -23,17 +23,17 @@ MonoBehaviour:
     CoolDownTime: 0
     ChargeUpTime: 0
   ImpactDamage:
-    baseDamage: 0
+    baseDamage: 5
     damageChangeByDistance: 0
   AreaDamage:
     explodable: 1
-    maxDamage: 0
+    maxDamage: 5
     maxBlastRange: 0
     numImpactsToDetonate: 5
   Trajectory:
     initialForceVector: 30
     maxInitialSpreadAngle: 0
-    dropOffRatio: 0.001
+    dropOffRatio: 0.01
   RateOfFire:
     baseRate: 1
     reloadingData:

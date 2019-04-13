@@ -63,7 +63,7 @@ MonoBehaviour:
   appendNameSpace: 1
   initialiseOnAwake: 1
   writeBeforeInitialRead: 0
-  projectilePrefab: {fileID: 417325487406218911, guid: dad7cd180475143df9230c60d1fcaba4,
+  projectilePrefab: {fileID: 1948309229377837862, guid: 8e93b8939ad834c0b999a5e9f2744aeb,
     type: 3}
   barrelTip: {fileID: 9201893605518034896}
   OnTriggerPressed:

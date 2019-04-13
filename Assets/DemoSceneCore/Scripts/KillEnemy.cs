@@ -9,7 +9,6 @@ public class KillEnemy : MonoBehaviour
     void Start()
     {
         d = GetComponent<Damageable>();
-        d.OnDestroyed += KillMe;
     }
 
     // Update is called once per frame

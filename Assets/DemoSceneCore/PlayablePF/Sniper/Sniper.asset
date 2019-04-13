@@ -23,22 +23,22 @@ MonoBehaviour:
     CoolDownTime: 0
     ChargeUpTime: 0
   ImpactDamage:
-    baseDamage: 0
+    baseDamage: 5
     damageChangeByDistance: 0
   AreaDamage:
     explodable: 1
     maxDamage: 0
     maxBlastRange: 0
-    numImpactsToDetonate: 1
+    numImpactsToDetonate: 10
   Trajectory:
-    initialForceVector: 200
+    initialForceVector: 20
     maxInitialSpreadAngle: 0
     dropOffRatio: 0.00001
   RateOfFire:
-    baseRate: 3
+    baseRate: 0.01
     reloadingData:
       count: 8
-      time: 1
+      time: 0.0001
     burstData: []
   Multishot:
     numberOfShots: 1
